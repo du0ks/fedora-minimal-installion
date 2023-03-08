@@ -1,6 +1,6 @@
 # Fedora Minimal Installion Guide
 ## Purpose
-This is a minimal installion guide for Fedora. Desktop Enviroment is GNOME. Approximately 900~1000 packages with NVIDIA and additional firmware drivers. RAM Usage is approximately 600MB at startup.
+This is a minimal installion guide for Fedora. Desktop Environment is GNOME. Approximately 900~1000 packages with NVIDIA and additional firmware drivers. RAM Usage is approximately 600MB at startup.
 
 ### Preparation  
 * Download Fedora Everything at https://alt.fedoraproject.org/.
@@ -9,10 +9,10 @@ This is a minimal installion guide for Fedora. Desktop Enviroment is GNOME. Appr
 * When it's done with updating the sources, go to "Software Selection". Choose "Minimal Installion".
 * Start the installion proccess and reboot the system.
 
-### Proccess
+### Process
 * For internet connection, connect your phone to the computer and activate "USB Tethering" from phone.
 
-* After connecting to internet, apply below. Your system will boot to the GNOME Desktop Enviroment. 
+* After connecting to internet, apply below. Your system will boot to the GNOME Desktop Environment. 
 
 ```
 sudo dnf install wget -y
