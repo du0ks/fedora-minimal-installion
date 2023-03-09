@@ -23,9 +23,13 @@ wget -q0- https://raw.githubusercontent.com/du0ks/fedora-minimal-installion/main
 ```
 sudo dnf install akmod-nvidia
 ```
-* If you are using Intel TigerLake Family proccessor, than it's likely to have issuses with your audio drivers. 
+* If you are using Intel TigerLake Family processor, than it's likely to have issuses with your audio drivers. 
 ```
 sudo dnf install alsa-sof-firmware
+```
+* Moreover, my microphone wasn't working. Also this is an issue for TigerLake family processors for some computers. Installing these packages solved my problem:  
+```
+sudo dnf install alsa-ucm alsa-utils qemu-audio-alsa
 ```
 * Than reboot. 
 
